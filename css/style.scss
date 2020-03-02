@@ -12,6 +12,11 @@ body{
     overflow: hidden;;
 }
 
+a{
+    text-decoration: none;
+    color: royalblue;
+}
+
 #top{
     width: 100%;
     background-color: rgb(233, 158, 59);
@@ -27,13 +32,26 @@ body{
 
 #information{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     height: 70%;
     color: rgb(0, 0, 0);
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 }
 
 @media screen and (max-width: 992px){
